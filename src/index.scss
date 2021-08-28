@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./sources/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./sources/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./sources/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./sources/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./sources/fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+*{
+	font-family:'Poppins', sans-serif;
+}
+
+a, a:focus{
+  text-decoration:none;
+}
+
+body{
+  background-color: #F3F3F3 !important;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0, 0, 0, 0.5);
+  display:flex;
+}
+
+.ReactModal__Overlay{
+  opacity:0;
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear;
+  overflow:auto;
+  z-index:9999
+}
+
+.ReactModal__Overlay .g-modal {
+  opacity: 0;
+  transform: scale(0);
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity:1
+}
+
+.ReactModal__Overlay--after-open .g-modal {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.ReactModal__Overlay--before-close .g-modal {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.ReactModal__Overlay--before-close {
+  opacity:0
+}
+
+.g-modal{
+  background: #fff;
+  outline: none;
+  margin-right: -50%;
+  max-width:500px;
+  width: 100%;
+  margin:auto;
+  border-radius: 20px;
+}
+
+.g-modal.g-modal-large{
+  max-width:1000px;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
