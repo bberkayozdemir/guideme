@@ -2,4 +2,4 @@
 
 "Guide Me" Hackathon için yazdığım react projem.
 
-	> **Demo:** (https://bekuli.github.io/guideme/)
+	> **Demo:** [Demo İçin Tıklayın](https://bekuli.github.io/guideme/)
