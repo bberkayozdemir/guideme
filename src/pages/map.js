@@ -104,7 +104,7 @@ class MapPage extends React.Component{
         sql:sql
       };
       var data = await $.ajax({
-        url: 'http://data.ibb.gov.tr/api/3/action/datastore_search_sql',
+        url: 'https://data.ibb.gov.tr/api/3/action/datastore_search_sql',
         data: query,
         dataType: 'jsonp',
       });
@@ -145,7 +145,7 @@ class MapPage extends React.Component{
         sql:sql
       };
       var data = await $.ajax({
-        url: 'http://data.ibb.gov.tr/api/3/action/datastore_search_sql',
+        url: 'https://data.ibb.gov.tr/api/3/action/datastore_search_sql',
         data: query,
         dataType: 'jsonp',
       });
@@ -205,7 +205,7 @@ class MapPage extends React.Component{
         sql:sql
       };
       var data = await $.ajax({
-        url: 'http://data.ibb.gov.tr/api/3/action/datastore_search_sql',
+        url: 'https://data.ibb.gov.tr/api/3/action/datastore_search_sql',
         data: query,
         dataType: 'jsonp',
       });
@@ -262,7 +262,7 @@ class MapPage extends React.Component{
         sql:sql
       };
       var data = await $.ajax({
-        url: 'http://data.ibb.gov.tr/api/3/action/datastore_search_sql',
+        url: 'https://data.ibb.gov.tr/api/3/action/datastore_search_sql',
         data: query,
         dataType: 'jsonp',
       });
@@ -303,7 +303,7 @@ class MapPage extends React.Component{
         sql:sql
       };
       var data = await $.ajax({
-        url: 'http://data.ibb.gov.tr/api/3/action/datastore_search_sql',
+        url: 'https://data.ibb.gov.tr/api/3/action/datastore_search_sql',
         data: query,
         dataType: 'jsonp',
       });
@@ -360,7 +360,7 @@ class MapPage extends React.Component{
         sql:sql
       };
       var data = await $.ajax({
-        url: 'http://data.ibb.gov.tr/api/3/action/datastore_search_sql',
+        url: 'https://data.ibb.gov.tr/api/3/action/datastore_search_sql',
         data: query,
         dataType: 'jsonp',
       });

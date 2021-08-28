@@ -47,7 +47,5 @@
     ]
   },
   "homepage": "https://bekuli.github.io/guideme/",
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+  "devDependencies": {}
 }
